@@ -1,0 +1,43 @@
+{
+  "name": "Cookly — SaaS Culinary Companion & Cookbook",
+  "short_name": "Cookly",
+  "description": "Discover something delicious. Explore global cuisines, scale ingredients, AI culinary sommelier, plan weekly meals, and cook step-by-step.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "background_color": "#10110F",
+  "theme_color": "#10110F",
+  "categories": ["food", "lifestyle", "productivity"],
+  "icons": [
+    {
+      "src": "/icon.svg",
+      "sizes": "192x192 512x512",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Discover Recipes",
+      "short_name": "Explore",
+      "description": "Browse global recipes and trending dishes",
+      "url": "/#explore",
+      "icons": [{ "src": "/icon.svg", "sizes": "192x192" }]
+    },
+    {
+      "name": "Weekly Meal Planner",
+      "short_name": "Planner",
+      "description": "Open your 7-day culinary schedule",
+      "url": "/#planner",
+      "icons": [{ "src": "/icon.svg", "sizes": "192x192" }]
+    },
+    {
+      "name": "Saved Cookbook",
+      "short_name": "Cookbook",
+      "description": "Access your saved favorite dishes",
+      "url": "/#cookbook",
+      "icons": [{ "src": "/icon.svg", "sizes": "192x192" }]
+    }
+  ]
+}
